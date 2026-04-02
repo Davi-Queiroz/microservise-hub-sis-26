@@ -76,6 +76,8 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(status).body(err);
     }
 
+
+   /*
     // 500 - fallback para qualquer erro não tratado
     @ExceptionHandler(Exception.class)
     public ResponseEntity<CustomErrorDTO> handleGenericException(Exception e,
@@ -88,5 +90,5 @@ public class GlobalExceptionHandler {
         );
 
         return ResponseEntity.status(status).body(err);
-    }
+    }*/
 }
